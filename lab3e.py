@@ -9,5 +9,5 @@
 # Follow the specific instructions given in the README.md file
 students = ["Ama","Elina","Maija","Daniel","Ibrahim"]
 students[1] = "Maggy"
-for student in students:
-    print(students)
+for i in range(len(students)):
+    print(students[i])
