@@ -9,7 +9,7 @@
 # Follow the specific instructions given in the README.md file
 list = []
 x = 0
-while len(list)<7:
+while len(list)<6:
    list.append(int(input("Enter a number: ")))
    list[x] = list[x]*10
    x = x + 1
